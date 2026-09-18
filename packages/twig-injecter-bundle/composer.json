@@ -1,0 +1,23 @@
+{
+    "name": "apphalla/twig-injecter-bundle",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Apphalla\\TwigInjecterBundle\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-kernel": "^6.4 || ^7.0",
+        "symfony/dependency-injection": "^6.4 || ^7.0",
+        "symfony/config": "^6.4 || ^7.0",
+        "twig/twig": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Apphalla\\TwigInjecterBundle\\Tests\\": "tests/"
+        }
+    }
+}

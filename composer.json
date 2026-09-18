@@ -1,0 +1,23 @@
+{
+    "name": "toax4/apphalla-devkit",
+    "description": "Monorepo de packages Composer réutilisables (règles PHPStan, traits Symfony/Doctrine, utils) pour mes projets perso",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "toax4/phpstan-rules": "@dev",
+        "adrien/symfony-kit": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/phpstan-rules"
+        },
+        {
+            "type": "path",
+            "url": "packages/symfony-kit"
+        }
+    ]
+}

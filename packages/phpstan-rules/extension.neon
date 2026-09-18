@@ -1,0 +1,7 @@
+services:
+    -
+        class: Apphalla\PHPStanRules\Rules\RequireNamedArgumentsRule
+        arguments:
+            minArguments: 2
+        tags:
+            - phpstan.rules.rule
